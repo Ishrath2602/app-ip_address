@@ -20,7 +20,6 @@ const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
   This section is used to test function and log any errors.
   We will make several positive and negative tests.
 */
-
 function main() {
   // Create some test data for getFirstIpAddress(), both valid and invalid.
   let sampleCidrs = ['172.16.10.0/24', '172.16.10.0 255.255.255.0', '172.16.10.128/25', '192.168.1.216/30'];
@@ -55,7 +54,4 @@ function main() {
     }
   }
 }
-/*
-  Call main to run it.
-*/
 main()
