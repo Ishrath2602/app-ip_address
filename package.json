@@ -1,26 +1,21 @@
 {
-  "name": "@acme/app-ip_address",
+  "name": "acme",
   "version": "0.1.0",
   "description": "An IAP product serving IP address management functions.",
   "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "Accept the default offered for test command."
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "Accept the default offered for git repository."
+    "url": "git+https://github.com/Ishrath2602/app-ip_address.git"
   },
-  "keywords": [
-    "Accept",
-    "the",
-    "default",
-    "offered",
-    "for",
-    "keywords."
-  ],
   "author": "ACME",
   "license": "SEE LICENSE IN LICENSE.md",
-  "dependencies": {
-    "ip-cidr": "^2.0.12"
-  }
+  "bugs": {
+    "url": "https://github.com/Ishrath2602/app-ip_address/issues"
+  },
+  "homepage": "https://github.com/Ishrath2602/app-ip_address#readme"
 }
